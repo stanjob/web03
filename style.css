@@ -1,6 +1,11 @@
+
+
 .body{
     width: 1024px;
     height:768px;
+    margin:0;
+    padding:0;
+
 }
 .header {
     width: 1024px;
@@ -8,21 +13,56 @@
     background-color: #000fff;
     display: flex;
     justify-content: center;
+
     
 }
 .header>img{
     width: 100px;
     height: 65px;
-    margin: 0;
-    padding: 0;
+  
 }
 .main {
     width: 1024px;
     height: 683px;
+    display:flex;
+  
     
+    
+}
+.sidenav{
+    width: 200px;
+    height: 683px;
+    display:flex;
+    background-color: #f0f0f0;
+
+}
+.content{
+    width: 824px;
+    height: 683px;
+    display: block;
+   
+    
+}
+.marquee{
+    width: 824px;
+    height: 20px;
+   
+}
+.marquee>marquee{
+    width: 824px;
+    height: 20px;
+    font-size: 14px;
+    line-height:0;
+
+}
+.contentdown{
+    width: 824px;
+    height: 654x;
+   
 }
 .footer {
     width: 1024px;
     height: 20px;
     
 }
+.sidenav
