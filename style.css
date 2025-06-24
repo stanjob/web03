@@ -1,0 +1,28 @@
+.body{
+    width: 1024px;
+    height:768px;
+}
+.header {
+    width: 1024px;
+    height: 65px;
+    background-color: #000fff;
+    display: flex;
+    justify-content: center;
+    
+}
+.header>img{
+    width: 100px;
+    height: 65px;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 1024px;
+    height: 683px;
+    
+}
+.footer {
+    width: 1024px;
+    height: 20px;
+    
+}
