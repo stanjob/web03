@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    test!
+    <div class="map">
+    <img src="../images/national_park.jpg" alt="" usemap="#parkmap">
+    <map name="parkmap">
+        <area shape="rect" coords="237,48,373,68" href="../park/yangmingshan.html" alt="" target="main">
+        <area shape="poly" coords="316,171,352,178,350,204,314,212,298,191" href="../park/sheipa.html" target="main" alt="">
+    </map>
+    </div>
+    <div class="descript">
+    <h3 style="color: #ff00ff; align-items: end;">資料來源：內政部營建署『臺灣的國家公園』網站</h3>
+    </div>
     
+<script>
+    const pic=document.querySelector("img");
+    
+    function call(e) {
+        const rect=pic.getBoundingClientRect();
+        const x=e.clientX- rect.left;
+        const y=e.clientY- rect.top;
+        console.log(x,y);
+    }
+    pic.addEventListener('click',call);
+</script>    
 </body>
 </html>

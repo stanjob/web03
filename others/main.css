@@ -1,0 +1,32 @@
+*,*;:before,*:after {
+    margin:0;
+    padding:0;
+    
+}
+html{
+    margin: 0;
+    padding: 0  ;
+}
+body{
+    background-image: url(../images/park0301.jpg);
+    display:flex;
+    flex-direction: column;
+ 
+
+}
+h3{
+    display: flex;
+    justify-content:flex-end;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,4 +1,8 @@
-
+*,*:before,*:after{
+    margin:0;
+    padding:0;
+    
+}
 
 .body{
     width: 1024px;
@@ -45,19 +49,24 @@
 }
 .marquee{
     width: 824px;
-    height: 20px;
-   
+    height: 29px;
+    
 }
 .marquee>marquee{
     width: 824px;
-    height: 20px;
-    font-size: 14px;
-    line-height:0;
+    height: 29px;
+    font-size: 16px;
+    line-height:16px;
+    display:flex;
+    justify-content: left;
+    align-items: center;
 
 }
 .contentdown{
     width: 824px;
-    height: 654x;
+    height: 654px;
+    margin: 0;
+    padding: 0;
    
 }
 .footer {
@@ -65,4 +74,19 @@
     height: 20px;
     
 }
-.sidenav
+/* sidenav display setting */
+.sidenav{
+    background-color: #00ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.sidenav table td{
+    width: 120px;
+    height: 40px;
+    padding: 0;
+    border:0;
+}
